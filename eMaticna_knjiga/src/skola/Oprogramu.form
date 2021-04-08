@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel_pozadina" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel_pozadina" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel_pozadina">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel_zaglavlje" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel_eMaticna_knjiga" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane_text" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel_zaglavlje" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="jLabel_eMaticna_knjiga" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane_text" pref="364" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel_zaglavlje">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel_oprogramu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="168" max="32767" attributes="0"/>
+                      <Component id="jButton_Zatvori_" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_oprogramu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton_Zatvori_" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel_oprogramu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Kristen ITC" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="O programu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_Zatvori_">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Zatvori"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton_Zatvori_MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane_text">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea_text">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Book Antiqua" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#x9;PROJEKT ZA DIPLOMSKI RAD &#xa;&#xa;       RAZVOJ PROGRAMSKOG RJE&#x160;ENJA ZA EVIDENCIJU&#xa;              NASTAVE U PROGRAMSKOM JEZIKU JAVA&#xa;&#xa;E-Mati&#x10d;na knjiga je centralizirani sustav koji slu&#x17e;i za unos&#xa; najva&#x17e;nijih podataka o u&#x10d;enicima i djelatnicima osnovnih i&#xa; srednjih &#x161;kola. Aplikacija je zami&#x161;ljena kao digitalni oblik&#xa; Mati&#x10d;ne knjige koja se u &#x161;kolama ru&#x10d;no ispunjava.&#xa; Korisnici se prijavljuju pomo&#x107;u podataka dobivenih od&#xa; odgovorne osobe zadu&#x17e;ene za nadzor i informati&#x10d;ku podr&#x161;ku.&#xa;Najva&#x17e;nije prednosti sustava u odnosu na ru&#x10d;ni unos podataka&#xa; su te &#x161;to su ovim na&#x10d;inom podaci dostupni s bilo koje lokacije&#xa; koja je povezana na Internet.&#xa;&#xa;KARAKTERISTIKE eMati&#x10d;ne knjige:&#xa;&#xa;Baza podataka&#xa;-MySql baza&#xa;-Naziv: ematicna_baza&#xa;-8 tablica u bazi:&#xa;&#x9;1. admin&#xa;&#x9;2. korisnik&#xa;&#x9;3. maticna_knjiga&#xa;&#x9;4. maticni_podaci_1&#xa;&#x9;5. maticni_podaci_2&#xa;&#x9;6. razred&#xa;&#x9;7. skolska_godina&#xa;&#x9;8. ucenik&#xa; &#xa;Su&#x10d;elje&#xa;- 18 Prozora:&#xa;&#x9;&#x2022;Prozor &#x201c;Pocetna&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Prijava_korisnik&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Prijava_admin&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Sucelje_korisnik&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Sucelje_admin&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_korisnika&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_admina&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_ucenika&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_razred&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_maticne_knjige&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Dodavanje_skolske_godine&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Popis_ucenika&#x201d;&#x9;&#xa;&#x9;&#x2022;Prozor &#x201c;Popis_ucenik_uredjivanje&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Ucenik_uredjivanje&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Upis_maticni_podaci&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201c;Maticni_podaci&#x201d;&#xa;&#x9;&#x2022;Prozor &#x201e;Maticni_podaci_korisnici&#x201c;&#xa;&#x9;&#x2022;Prozor &#x201c;Oprogramu&#x201d;&#xa;&#xa;Korisnici sustava:&#xa;&#x9;1. Korisnici&#xa;&#x9;2. Administratori&#xa;&#xa;Podaci za prijavu:&#xa;&#x9;1. Korisnici: &#xa;&#x9; &#x9;Korisnicko ime &#xa;&#x9;&#x9;Lozinka&#xa;&#xa;&#x9;2. Administratori &#xa;&#x9;&#x9;Admin ime &#xa;&#x9;&#x9;Admin lozinka&#xa;&#x9;&#xa;___________________________________________________________&#xa;&#xa;&#x9;&#x9;Autor: &#xa;&#x9;&#x9;Severin Kne&#x17e;evi&#x107;&#xa;&#x9;&#x9;email: severinknezevic@gmail.com&#xa;&#x9;&#x9;kontakt broj: 063/619-978&#xa;&#xa;&#x9;&#x9;Student &#xa;&#x9;&#x9;Broj indeksa: 3646/ds&#xa;&#x9;&#x9;Studiji informatike&#xa;&#x9;&#x9;Sveu&#x10d;ili&#x161;te u Mostaru&#x9;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel_eMaticna_knjiga">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="eMati&#x10d;na knjiga"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

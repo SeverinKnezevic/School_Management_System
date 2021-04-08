@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jInternalFrame_formular" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                      <Component id="jLabel_pretrazi_tablicu" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtPretrazivac" min="-2" pref="218" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="268" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane_tablica" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jInternalFrame_formular" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_pretrazi_tablicu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPretrazivac" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane_tablica" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JInternalFrame" name="jInternalFrame_formular">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="iconifiable" type="boolean" value="true"/>
+        <Property name="title" type="java.lang.String" value="Mati&#x10d;ni podaci u&#x10d;enika"/>
+        <Property name="toolTipText" type="java.lang.String" value=" "/>
+        <Property name="visible" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jButton_Spremi_" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton_Odustani_" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jSeparator2" min="-2" pref="303" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel_ime" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_spol" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_prezime" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_imena_roditelja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_datum_rodjenja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_mjesto_rodjenja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_opcina_rodjenja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_drzava_rodjenja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_drzavljanin" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_narodnost" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_jmbg" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="txtNarodnost" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtIme" alignment="1" pref="180" max="32767" attributes="0"/>
+                                      <Component id="txtDrzava_rodjenja" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtSpol" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtPrezime" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtDatum_rodjenja" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtRoditelj" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtMjesto_rodjenja" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtOpcina_rodjenja" max="32767" attributes="0"/>
+                                      <Component id="txtDrzavljanin" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtJmbg" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel_maticna_knjiga" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_maticni_broj" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_iducenik" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtid_Ucenik" alignment="1" pref="183" max="32767" attributes="0"/>
+                                      <Component id="txtMaticna_knjiga" max="32767" attributes="0"/>
+                                      <Component id="txtMaticni_broj" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_godina_prvog_razreda" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="txtGodina_prvog_razreda" min="-2" pref="180" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_id" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txtrd" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtrd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel_id" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_maticna_knjiga" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMaticna_knjiga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_maticni_broj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMaticni_broj" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtid_Ucenik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel_iducenik" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_ime" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIme" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_prezime" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPrezime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtJmbg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel_jmbg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_spol" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSpol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel_imena_roditelja" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRoditelj" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel_datum_rodjenja" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDatum_rodjenja" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_mjesto_rodjenja" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMjesto_rodjenja" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel_opcina_rodjenja" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="txtOpcina_rodjenja" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_drzava_rodjenja" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDrzava_rodjenja" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel_drzavljanin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDrzavljanin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel_narodnost" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNarodnost" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtGodina_prvog_razreda" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel_godina_prvog_razreda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton_Spremi_" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton_Odustani_" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel_ime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ime"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_prezime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Prezime"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_spol">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spol"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_imena_roditelja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Imena roditelja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_datum_rodjenja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Datum ro&#x111;enja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_mjesto_rodjenja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mjesto ro&#x111;enja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_opcina_rodjenja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Op&#x107;ina ro&#x111;enja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_drzava_rodjenja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dr&#x17e;ava ro&#x111;enja"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_drzavljanin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dr&#x17e;avljanin"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_narodnost">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Narodnost"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_Spremi_">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Symbol" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spremi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_Spremi_ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_Odustani_">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Symbol" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Odustani"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_Odustani_ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_maticna_knjiga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mati&#x10d;na knjiga"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_maticni_broj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mati&#x10d;ni broj "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIme">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPrezime">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRoditelj">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtRoditeljActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDatum_rodjenja">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDatum_rodjenjaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMjesto_rodjenja">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcina_rodjenja">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDrzavljanin">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMaticna_knjiga">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaticna_knjigaActionPerformed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMaticna_knjigaKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtid_Ucenik">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtid_UcenikActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_iducenik">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID U&#x10d;enika"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtJmbg">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_jmbg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="JMBG"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtGodina_prvog_razreda">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_godina_prvog_razreda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Godina prvog razreda"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMaticni_broj">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaticni_brojActionPerformed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMaticni_brojKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSpol">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDrzava_rodjenja">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNarodnost">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtrd">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtrdActionPerformed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtrdKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel_id">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane_tablica">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable_tablica">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="16" rowCount="0">
+                <Column editable="true" title="ID" type="java.lang.Object"/>
+                <Column editable="true" title="ID U&#x10d;enika" type="java.lang.Object"/>
+                <Column editable="true" title="Mati&#x10d;ni knjiga" type="java.lang.Object"/>
+                <Column editable="true" title="Mati&#x10d;ni broj" type="java.lang.Object"/>
+                <Column editable="true" title="Ime" type="java.lang.Object"/>
+                <Column editable="true" title="Prezime" type="java.lang.Object"/>
+                <Column editable="true" title="JMBG" type="java.lang.Object"/>
+                <Column editable="true" title="Spol" type="java.lang.Object"/>
+                <Column editable="true" title="Roditelji" type="java.lang.Object"/>
+                <Column editable="true" title="Datum ro&#x111;enja" type="java.lang.Object"/>
+                <Column editable="true" title="Grad ro&#x111;enja" type="java.lang.Object"/>
+                <Column editable="true" title="Op&#x107;ina ro&#x111;enja" type="java.lang.Object"/>
+                <Column editable="true" title="Dr&#x17e;ava ro&#x111;enja" type="java.lang.Object"/>
+                <Column editable="true" title="Dr&#x17e;avljanstvo" type="java.lang.Object"/>
+                <Column editable="true" title="Narodnost" type="java.lang.Object"/>
+                <Column editable="true" title="Godina prvog razreda" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable_tablicaMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="txtPretrazivac">
+      <Properties>
+        <Property name="selectedTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPretrazivacKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_pretrazi_tablicu">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pretra&#x17e;i  tablicu"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
